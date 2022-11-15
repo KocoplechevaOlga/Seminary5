@@ -25,7 +25,7 @@ int SumPlusElemMas(int[] arr)
 {
     int k = 0;
     int summ = 0;
-    for (k = 0; k < (arr.Length-1); k++)
+    for (k = 0; k < (arr.Length); k++)
         if (arr[k] > 0) summ = summ + arr[k];
     return summ;
 }
@@ -33,7 +33,7 @@ int SumMinusElemMas(int[] arr)
 {
     int k = 0;
     int summ = 0;
-    for (k = 0; k < (arr.Length-1); k++)
+    for (k = 0; k < (arr.Length); k++)
         if (arr[k] < 0) summ = summ + arr[k];
     return summ;
 }
